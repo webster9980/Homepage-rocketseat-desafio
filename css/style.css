@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300&family=Poppins:wght@100;700&family=Roboto:wght@100&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #FBF6FF;
+}
+.logo{
+    filter: drop-shadow(3px 3px 3px #760fc0);
+    max-width: 570px;
+    max-height: 350px;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #290742;
+    padding: 70px 70px 20px 70px;
+    color: #F9E7E7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho input::placeholder{
+    color: #FBF6FF;
+    padding: 10px;
+}
+.itens-cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: none;
+    height: auto;
+    
+}
+
+.itens-cabecalho a{
+    color: #F9E7E7;
+    font-size: 15px;
+    display: flex;
+}
+
+.itens-cabecalho a:hover{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-left: 2px solid #4FFF4B;
+}
+
+.Seach{
+    width: 200px;
+    height: 44px;
+    background: #170027;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'Roboto' , 'sans-serif';
+}
+
+.div-seach{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.btn-seach{
+    height: 44px;
+    background: #9E6DC2;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+
+.sub-cabecalho{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background: #290742;
+    padding: 20px 70px 40px 70px;
+    border-bottom: 5px solid #4FFF4B;
+    box-sizing: border-box;
+}
+
+.card-left{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 10px;
+    
+}
+
+.subcabecalho-titulo{
+    color: #9E6DC2;
+    font-size: 36px;
+    line-height: 54px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+}
+
+.subcabecalho-texto{
+    color: #FBF6FF;
+    font-family: 'Roboto' , 'sans-serif';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.subcabecalho-link{
+    color: #9E6DC2;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Roboto' , 'sans-serif';    
+    
+}
+
+.card-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50vw;
+
+}
+
+.section-content{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.section-left{
+    width: 50vw;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.section-left-titulo{
+    padding: 10px 0px;
+    color: #290742;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: 'Roboto' , 'sans-serif';
+}
+
+.section-text{
+    font-family: 'Roboto' , 'sans-serif';
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.data-artigo{
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 3px;
+    font-family: 'Roboto' , 'sans-serif';    
+}
+
+.section-left-img{
+    max-width: 100%;
+}
+
+.section-right{
+    width: 50vw;
+    padding-right: 70px;
+}
+
+.section-right-titulo{
+    padding: 10px 0px;
+    color: #290742;
+    font-family: 'Roboto' , 'sans-serif';
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;    
+}
+
+#aside{
+    border-top: 1.5px solid #F2E7FA;
+    padding-top: 10px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px 0px 70px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+.artigo{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-rodape{
+    max-width: auto;
+    max-height: 300px;
+}
+
+.titulo-artigo{
+    color: #290742;
+    Font-family: Roboto, 'sans';
+    Font-style: Bold;
+    Font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;  
+}
+
+.label-data{
+    Font-family: Roboto, 'sans';
+    font-size: 16px;
+
+}
